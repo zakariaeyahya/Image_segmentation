@@ -39,9 +39,8 @@ Le projet est organisé comme suit :
 │   │       └── data_preprocessing.py
 │   ├── YOLO/          # Code spécifique à YOLO
 │   │   ├── yolo-cityscapesv2.ipynb
-│   │   └── README.md
+│   ├── U-net
 ├── README.md          # Fichier README (ce fichier)
-└── requirements.txt   # Liste des dépendances Python
 ```
 
 
