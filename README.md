@@ -1,6 +1,24 @@
 # Projet de Segmentation d'Environnement avec Deep Learning
 
 Ce projet vise à explorer et à comparer différentes architectures de Deep Learning pour la segmentation sémantique d'environnements urbains, en utilisant le dataset **Cityscapes**. Les modèles utilisés sont **DeepLabV3+**, **U-Net**, et **YOLO**. Ce projet a été réalisé dans le cadre du module de Deep Learning à l'École Nationale des Sciences Appliquées de Tétouan.
+Bien sûr ! Voici une version réécrite de la section "Technologies" avec les badges mis à jour :
+
+## 🛠 Technologies
+
+![Python](https://img.shields.io/badge/Python-3.12+-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-green)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Operations-blue)
+![Tqdm](https://img.shields.io/badge/Tqdm-Progress%20Bar-orange)
+![YAML](https://img.shields.io/badge/YAML-Data%20Serialization-yellow)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red)
+![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-purple)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Machine%20Learning-orange)
+![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-orange)
+![Torchvision](https://img.shields.io/badge/Torchvision-Computer%20Vision-green)
+![PIL](https://img.shields.io/badge/PIL-Image%20Manipulation-blue)
+![JSON](https://img.shields.io/badge/JSON-Data%20Manipulation-yellow)
 
 ## Structure du Projet
 
@@ -51,10 +69,9 @@ Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, 
 ## Licence
 
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
-
-## Auteurs
-- Hamza Kholti
-- Anouar Bouzhar
+* **Zakariae Yahya** - *Data Scientist* - [Profil GitHub](https://github.com/zakariaeyahya)
+* **Bouzhar Anouar** - [Profil GitHub](https://www.linkedin.com/in/anouar-bouzhar-992519287/)
+* **kholti hamza** - [Profil GitHub](https://www.linkedin.com/in/hamza-kholti-075288209/)
 
 **Encadrant** : Mr. BELCAID Anas  
 **Année Universitaire** : 2024-2025
