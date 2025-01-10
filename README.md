@@ -48,11 +48,12 @@ Le projet est organisé comme suit :
 
 Les résultats des modèles sont comparés en termes de précision, de mIoU (mean Intersection over Union), et de temps d'inférence. Voici un résumé des performances :
 
-| Modèle | mIoU (Entraînement) | mIoU (Validation) | Temps d'Inférence (s) |
-|--------|--------------------:|------------------:|---------------------:|
-| DeepLabV3+ | 0.57 | 0.57 | 0.04 |
-| U-Net | 0.85 | 0.33 | 0.07 |
-| YOLO | 0.18 | 0.12 | 0.02 |
+ | Modèle     | mIoU (Entraînement) | mIoU (Validation) |
+ |------------|---------------------:|------------------:|
+ | DeepLabV3+ | 0.57                | 0.57             |
+ | U-Net      | 0.43                | 0.26             |
+ | YOLO       | ---                 | 0.21             |
+
 
 ## Perspectives d'Amélioration
 
