@@ -70,8 +70,8 @@ Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, 
 
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 * **Zakariae Yahya** - *Data Scientist* - [Profil GitHub](https://github.com/zakariaeyahya)
-* **Bouzhar Anouar** - [Profil GitHub](https://www.linkedin.com/in/anouar-bouzhar-992519287/)
-* **kholti hamza** - [Profil GitHub](https://www.linkedin.com/in/hamza-kholti-075288209/)
+* **Bouzhar Anouar** -*AI engineer * [Profil GitHub](https://www.linkedin.com/in/anouar-bouzhar-992519287/)
+* **kholti hamza** - *Data Scientist* [Profil GitHub](https://www.linkedin.com/in/hamza-kholti-075288209/)
 
 **Encadrant** : Mr. BELCAID Anas  
 **Année Universitaire** : 2024-2025
