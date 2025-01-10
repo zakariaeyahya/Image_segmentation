@@ -1,7 +1,6 @@
 # Projet de Segmentation d'Environnement avec Deep Learning
 
 Ce projet vise à explorer et à comparer différentes architectures de Deep Learning pour la segmentation sémantique d'environnements urbains, en utilisant le dataset **Cityscapes**. Les modèles utilisés sont **DeepLabV3+**, **U-Net**, et **YOLO**. Ce projet a été réalisé dans le cadre du module de Deep Learning à l'École Nationale des Sciences Appliquées de Tétouan.
-Bien sûr ! Voici une version réécrite de la section "Technologies" avec les badges mis à jour :
 
 ## 🛠 Technologies
 
