@@ -1,6 +1,10 @@
-# Projet de Segmentation d'Environnement avec Deep Learning
+Here is the English translation of your project README:
 
-Ce projet vise à explorer et à comparer différentes architectures de Deep Learning pour la segmentation sémantique d'environnements urbains, en utilisant le dataset **Cityscapes**. Les modèles utilisés sont **DeepLabV3+**, **U-Net**, et **YOLO**. Ce projet a été réalisé dans le cadre du module de Deep Learning à l'École Nationale des Sciences Appliquées de Tétouan.
+---
+
+# Urban Environment Segmentation Project with Deep Learning
+
+This project aims to explore and compare different Deep Learning architectures for semantic segmentation of urban environments using the **Cityscapes** dataset. The models used are **DeepLabV3+**, **U-Net**, and **YOLO**. This project was carried out as part of the Deep Learning module at the National School of Applied Sciences in Tetouan.
 
 ## 🛠 Technologies
 
@@ -19,58 +23,59 @@ Ce projet vise à explorer et à comparer différentes architectures de Deep Lea
 ![PIL](https://img.shields.io/badge/PIL-Image%20Manipulation-blue)
 ![JSON](https://img.shields.io/badge/JSON-Data%20Manipulation-yellow)
 
-## Structure du Projet
+## Project Structure
 
-Le projet est organisé comme suit :
+The project is organized as follows:
+
 ```
-├── images/            # Images utilisées pour l'entraînement et la validation
-│   ├── U-net/         # Images pour U-Net
-│   ├── YOLO/          # Images pour YOLO
-│   └── deeplab/       # Images pour DeepLabV3+
-├── src/               # Code source du projet
-│   ├── Deeplab/       # Code spécifique à DeepLabV3+
-│   │   ├── model/     # Fichiers de modèle pour DeepLabV3+
-│   │   │   ├── init.py
+├── images/            # Images used for training and validation
+│   ├── U-net/         # Images for U-Net
+│   ├── YOLO/          # Images for YOLO
+│   └── deeplab/       # Images for DeepLabV3+
+├── src/               # Project source code
+│   ├── Deeplab/       # DeepLabV3+ specific code
+│   │   ├── model/     # Model files for DeepLabV3+
+│   │   │   ├── __init__.py
 │   │   │   ├── deeplabv3plus.py
 │   │   │   ├── metrics.py
 │   │   │   ├── prediction.py
 │   │   │   └── train.py
 │   │   └── processing/
 │   │       └── data_preprocessing.py
-│   ├── YOLO/          # Code spécifique à YOLO
+│   ├── YOLO/          # YOLO specific code
 │   │   ├── yolo-cityscapesv2.ipynb
-│   ├── U-net
-├── README.md          # Fichier README (ce fichier)
+│   ├── U-net/
+├── README.md          # README file (this file)
 ```
 
+## Results
 
-## Résultats
+The models' results are compared in terms of accuracy, mIoU (mean Intersection over Union), and inference time. Here is a summary of the performance:
 
-Les résultats des modèles sont comparés en termes de précision, de mIoU (mean Intersection over Union), et de temps d'inférence. Voici un résumé des performances :
+| Model       | mIoU (Training) | mIoU (Validation) |
+|-------------|----------------:|------------------:|
+| DeepLabV3+  | 0.57            | 0.57              |
+| U-Net       | 0.43            | 0.26              |
+| YOLO        | ---             | 0.21              |
 
- | Modèle     | mIoU (Entraînement) | mIoU (Validation) |
- |------------|---------------------:|------------------:|
- | DeepLabV3+ | 0.57                | 0.57             |
- | U-Net      | 0.43                | 0.26             |
- | YOLO       | ---                 | 0.21             |
+## Improvement Perspectives
 
-
-## Perspectives d'Amélioration
-
-- **DeepLabV3+** : Optimisation des hyperparamètres et réduction de la complexité.
-- **U-Net** : Ajout de régularisation et augmentation des données pour réduire le surapprentissage.
-- **YOLO** : Adaptation à la segmentation et exploration de versions plus récentes.
+- **DeepLabV3+**: Hyperparameter optimization and complexity reduction.
+- **U-Net**: Adding regularization and data augmentation to reduce overfitting.
+- **YOLO**: Adapting for segmentation and exploring newer versions.
 
 ## Contributions
 
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, veuillez ouvrir une issue ou soumettre une pull request.
+Contributions are welcome! If you wish to improve this project, please open an issue or submit a pull request.
 
-## Licence
+## License
 
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
-* **Zakariae Yahya** - *Data Scientist* - [Profil GitHub](https://github.com/zakariaeyahya)
-* **Bouzhar Anouar** -*AI engineer * [Profil GitHub](https://www.linkedin.com/in/anouar-bouzhar-992519287/)
-* **kholti hamza** - *Data Scientist* [Profil GitHub](https://www.linkedin.com/in/hamza-kholti-075288209/)
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-**Encadrant** : Mr. BELCAID Anas  
-**Année Universitaire** : 2024-2025
+**Team Members:**
+- **Zakariae Yahya** - *Data Scientist* - [GitHub Profile](https://github.com/zakariaeyahya)
+- **Bouzhar Anouar** - *AI Engineer* - [LinkedIn Profile](https://www.linkedin.com/in/anouar-bouzhar-992519287/)
+- **Kholti Hamza** - *Data Scientist* - [LinkedIn Profile](https://www.linkedin.com/in/hamza-kholti-075288209/)
+
+**Supervisor:** Mr. BELCAID Anas
+**Academic Year:** 2024-2025
